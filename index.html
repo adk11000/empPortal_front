@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div style="float: left;">
+	<table cellspacing="15">
+		<tr>
+			<td><img src="logo.png" alt="Company Logo" style="width: 150px ;height: 150px ;margin-left: 30px;"></td>
+			<td><h1 id="company">COMPANY</h1><h2 style="margin-top: 0;"><center>-----------Private Limited-----------</center></h2></td>
+		</tr>	
+	</table>
+	</div>
+	<div align="right">
+	<table cellspacing="15">
+		<tr>
+			<td><h1>Employee Portal</h1></td>
+			<td><img src="employee.png" alt="Company Logo" style="width: 150px ;height: 150px; margin-right: 50px;"></td>	
+		</tr>	
+	</table>
+</div>
+	<hr>
+	<br>
+	<center>
+<div id="outer">
+	<div id="inner">
+		<form action="profile.html" method="post">
+			<table>
+				
+				<tr>
+					<td align="right"><label><h3>Employee ID : </h3></label></td>
+					<td><input style="font-family: FontAwesome,Sans-serif;" type="text" placeholder ="&#xf003  20XXAXHXPXXX" name="empId" required></td>
+				</tr>
+				<tr>
+					<td align="right"> <label><h3>Password : </h3></label></td>
+					<td> <input style="font-family: FontAwesome,Sans-serif;" type="Password" placeholder ="&#xf084  Password" name="empPass" required></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Log in">
+		</form>
+	</div>
+	<p style="color:#d96073;">**Please use the ID and Password provided by the company </p>
+	<p id="clickhere"> Trouble logging in ? <a href="contact.html">Click Here</a></p>
+</div>
+	</center>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Profile Page</title>
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div style="float: left;">
+	<table cellspacing="15">
+		<tr>
+			<td><img src="logo.png" alt="Company Logo" style="width: 150px ;height: 150px ;margin-left: 30px;"></td>
+			<td><h1 id="company">COMPANY</h1><h2 style="margin-top: 0;"><center>-----------Private Limited-----------</center></h2></td>
+		</tr>	
+	</table>
+	</div>
+	<div align="right" style="margin-right:50px;">
+	<table cellspacing="15" id="prof">
+		<tr>
+			<td>
+				<table style="text-align: right;font-size: 20px; margin-left: 20px;">
+					<tr><td>John Doe</td></tr>
+					<tr><td>Title / Post</td></tr>
+					<tr><td>20XXAXHXPXXX</td></tr>
+					<tr><td>employee@company.com</td></tr>
+				</table>
+			</td>
+			<td><img src="profile.png" alt="Company Logo" style="width: 150px ;height: 150px;"></td>	
+		</tr>	
+	</table>
+</div>
+	<hr>
+	<br>
+	<center>
+		<div id="outer">
+			<p style="color:#d96073;"> **You can add multiple members</p>
+			<div align="left" style="margin-left : 5%"><a  id="link" href="profile.html" style="text-align: center; width: 15%;font-family: FontAwesome,Sans-serif;"> &#xf0fe  Add Member </a></div>
+			<div id="inner" style="width: 75%; margin-top: 2%;">
+				<form action="http://localhost:8080/example" method="post">
+				<div align="left" style="margin-left: 5%;">
+					<input type="radio" name="memType" value="family members"required>
+					<label> Family</label>
+					<input type="radio" name="memType" value="friends" required>
+					<label> Friend</label>
+				</div>
+				<table>
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td align="right"> <label><h3>Name :</h3> </label></td>
+									<td><input style="font-family: FontAwesome,Sans-serif;" type="text" placeholder ="&#61447  John Doe"name="memName" required></td>
+								</tr>
+								<tr>
+									<td align="right"><label><h3>E-mail ID : </h3> </label></td>
+									<td><input style="font-family: FontAwesome,Sans-serif;" type="email" placeholder ="&#xf003  xyz@abc.com"name="memId" required></td>
+								</tr>
+								<tr>
+									<td align="right"> <label><h3>Gender :</h3> </label></td>
+									<td>
+										<select name="memGen">
+											<option value="Mr">Male</option>
+											<option value="Mrs">Female</option>
+											<option value="Mx">Others</option>
+										</select>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td align="right"> <label><h3>Occupation : </h3></label></td>
+									<td><input style="font-family: FontAwesome,Sans-serif;" type="text" placeholder ="&#xf0f2  Work"name="memOcc"></td>
+								</tr>
+								<tr>
+									<td align="right"><label><h3>Country : </h3></label></td>
+									<td><input style="font-family: FontAwesome,Sans-serif;" type="text" placeholder ="&#xf0ac  Nationality"name="memCon"></td>
+								</tr>
+								<tr>
+									<td align="right"> <label><h3>Contact No. : </h3></label></td>
+									<td> <input style="font-family: FontAwesome,Sans-serif;" type="text" placeholder ="&#xf095  98765xxxxx"name="memPhone"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<div align="right" style="margin-right: 5%;" ><input style="font-family: FontAwesome,Sans-serif; width: 10%;" type="submit" value="Done"></div>
+				</form>
+			</div>
+			<br><a id="link" href="last.html"> Submit </a><br>
+		</div>
+	</center>
+</body>
+</html>
